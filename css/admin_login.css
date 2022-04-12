@@ -1,0 +1,71 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #e5e5e5 !important;
+}
+.user_card {
+  height: 460px;
+  width: 350px;
+  margin-top: auto;
+  margin-bottom: auto;
+  background: #efefef;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 15px;
+}
+.form_container {
+  margin-top: 100px;
+}
+.login_btn {
+  text-align: center;
+  width: 60%;
+  background: #207819 !important;
+  color: white !important;
+  border-radius: 20px !important;
+  margin-left: 30px;
+}
+.login_btn:focus {
+  box-shadow: none !important;
+  outline: 0px !important;
+}
+.login_container {
+  padding: 0 2rem;
+  border-radius: 150px !important;
+}
+.input-group {
+  width: 300px;
+  height: 50px;
+}
+.input-group-text {
+  background: #c0392b !important;
+  color: white !important;
+  border: 0 !important;
+  font-size: 20px;
+}
+.input_user {
+  border-radius: 20px !important;
+}
+.input_pass {
+  border-radius: 20px !important;
+}
+.input_user,
+.input_pass:focus {
+  box-shadow: none !important;
+  outline: 0px !important;
+}
+.links a {
+  color: #207819;
+}
+.links a:hover {
+  color: #207819;
+}

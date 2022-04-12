@@ -1,0 +1,140 @@
+/* home-page-styles */
+.bg {
+  background-color: #e5e5e5;
+}
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 100px;
+}
+.box {
+  color: white;
+  text-decoration: none;
+  width: 300px;
+  height: 200px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  /* border: 2px solid red; */
+}
+.title {
+  color: #797979;
+  font-size: 50px;
+  font-weight: 400;
+}
+#admin {
+  background-color: #e48c3a;
+}
+#teacher {
+  background-color: #33c353;
+}
+#student {
+  background-color: #f83b3b;
+}
+
+/* login page styles */
+
+#particles-js {
+  height: 100%;
+}
+
+.loginBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  min-height: 400px;
+
+  border-radius: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.user {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin: 0;
+  padding: 0 0 20px;
+
+  text-align: center;
+}
+
+.loginBox input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.loginBox input[type="text"],
+.loginBox input[type="password"] {
+  border: none;
+
+  outline: none;
+  height: 40px;
+  color: rgb(17, 17, 17);
+
+  font-size: 16px;
+  padding-left: 20px;
+  box-sizing: border-box;
+
+  background: #dddddd;
+  border-radius: 115px;
+}
+
+.inputBox {
+  position: relative;
+}
+
+.inputBox span {
+  position: absolute;
+  top: 10px;
+  color: #262626;
+}
+
+.loginBox input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  font-size: 16px;
+  background: #207819;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.loginBox a {
+  color: #262626;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+
+/* student styles */
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px;
+}
+.button {
+  width: 295px;
+  height: 50px;
+  border-radius: 5px;
+  background: #c4c4c4;
+  border: none;
+}
+.tr {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px;
+}
+
+.right-container {
+  height: 550px;
+  background-color: white;
+}
